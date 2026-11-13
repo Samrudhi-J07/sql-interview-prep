@@ -37,3 +37,20 @@ SELECT
     salary
 FROM Employees
 WHERE salary > 50000;
+
+
+
+Question 2:
+
+Write an SQL query to display the names of employees who belong to the IT department and earn more than ₹50,000.
+
+-- ==========================================
+-- QUESTION 02
+-- Find IT employees earning more than 50000
+-- ==========================================
+
+SELECT name
+FROM Employees
+WHERE department = 'IT'
+AND salary > 50000;
+
