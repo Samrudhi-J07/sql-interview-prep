@@ -10,3 +10,19 @@ DQL	:- SELECT
 DCL	:- GRANT, REVOKE
 TCL	:- COMMIT, ROLLBACK, SAVEPOINT
 
+database:-
+
+create table employees(
+  emp_id int primary key,
+  name varchar(40),
+  department varchar(50),
+  salary int
+);
+
+insert into employees values(1,"sam","IT",30000),(2,"ram","HR",40000),(3,"siya","IT",45000),(4,"jiya","Sales",20000);
+select * from employees;     #display all records from a table
+
+
+
+
+
