@@ -1,1 +1,12 @@
+Q1. What is SQL?
+Answer: SQL stands for Structured Query Language. It is used to store, retrieve, update and delete data from databases.
+
+Q2. What are the different types of SQL commands?
+Commands are:
+
+DDL	:- CREATE, ALTER, DROP, TRUNCATE
+DML	:- INSERT, UPDATE, DELETE
+DQL	:- SELECT
+DCL	:- GRANT, REVOKE
+TCL	:- COMMIT, ROLLBACK, SAVEPOINT
 
