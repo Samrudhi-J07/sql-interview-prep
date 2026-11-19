@@ -25,4 +25,3 @@ select * from employees;     #display all records from a table
 
 
 
-
